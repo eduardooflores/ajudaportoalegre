@@ -39,11 +39,24 @@ else
                   border-radius: 8px;
                   background: #f9f9f9;
             }
+
+            .sair {
+                  font-size: 15px;
+                  box-shadow: 1px 1px 15px 1px #3d485265;
+                  background-color: rgba(0, 0, 0, 0.8);
+                  padding: 10px;
+                  border-radius: 15px;
+                  color: #CCA43B;
+                  text-decoration: none;
+                  position: absolute;
+                  top: 10px;
+                  right: 20px;
+            }
       </style>
 </head>
 <body>
       <div class="d-flex">
-            <a href="sair.php" class="btn btn-danger me-5">SAIR</a>
+            <a href="sair.php" class="sair">SAIR</a>
       </div>
       <h1>SISTEMA ACESSADO</h1>
       
