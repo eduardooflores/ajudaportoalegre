@@ -37,7 +37,7 @@
             }
             .box{
                   color: white;
-                  position: absolute; /* Faz com que o elemento ocupe apenas o espaço dele mesmo */
+                  position: absolute;
                   top: 50%;
                   left: 50%;
                   transform: translate(-50%, -50%);
@@ -67,18 +67,18 @@
                   background: none;
                   border: none;
                   border-bottom: 1px solid white;
-                  outline: none; /* Tira a borda do input que vem por padrão*/
+                  outline: none;
                   color: white;
                   font-size: 15px;
                   width: 100%;
-                  letter-spacing: 2px; /* Adiciona um espaçamento aos caracteres do input*/
+                  letter-spacing: 2px;
             }
 
             .labelInput{
                   position: absolute;
                   top: 0px;
                   left: 0px;
-                  pointer-events: none; /* Qualquer lugar clicado no input executara a ação*/
+                  pointer-events: none;
                   transition: .5s;
             }
 
@@ -90,7 +90,7 @@
             }
 
             textarea{
-                  resize: none; /* Faz com que a área de texto do textarea não possa ser redimensionada */
+                  resize: none;
                   font-size: 15px;
             }
 
@@ -108,7 +108,7 @@
                   padding: 15px;
                   color: black;
                   font-size: 15px;
-                  cursor: pointer; /* Muda o cursos para clicar quando mouse estiver em cima*/
+                  cursor: pointer;
                   border-radius: 10px;
             }
 
